@@ -1,0 +1,17 @@
+"C:\Program Files\JetBrains\CLion 2021.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_CXX_FLAGS=--coverage -DCMAKE_C_FLAGS=--coverage -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - MinGW Makefiles" C:\Users\polly\CLionProjects\formal_lang
+-- The C compiler identification is GNU 9.2.0
+-- The CXX compiler identification is GNU 9.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/MinGW/bin/gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/MinGW/bin/g++.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found Python: C:/Users/polly/AppData/Local/Programs/Python/Python39/python.exe (found version "3.9.0") found components: Interpreter 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/polly/CLionProjects/formal_lang/cmake-build-debug-coverage
