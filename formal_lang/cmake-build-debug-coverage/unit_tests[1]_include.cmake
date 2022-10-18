@@ -1,0 +1,5 @@
+if(EXISTS "C:/Users/polly/CLionProjects/formal_lang/cmake-build-debug-coverage/unit_tests[1]_tests.cmake")
+  include("C:/Users/polly/CLionProjects/formal_lang/cmake-build-debug-coverage/unit_tests[1]_tests.cmake")
+else()
+  add_test(unit_tests_NOT_BUILT unit_tests_NOT_BUILT)
+endif()

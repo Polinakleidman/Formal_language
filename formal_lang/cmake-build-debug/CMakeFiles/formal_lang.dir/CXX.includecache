@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/polly/CLionProjects/formal_lang/src/RegEx.cpp
+RegEx.h
+C:/Users/polly/CLionProjects/formal_lang/src/RegEx.h
+
+C:/Users/polly/CLionProjects/formal_lang/src/RegEx.h
+iostream
+-
+string
+-
+vector
+-
+stack
+-
+
