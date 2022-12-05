@@ -1,9 +1,9 @@
 # Cocke - Younger - Kasami algorithm & Chomsky normal form
 ----
 ## Grammatic description:
-1. Both letters from alphabet and not terminals have type int
+1. Both letters from alphabet and not-terminals have type int
 2. Alphabet is contained in set _alphabet
-3. Not terminals are contained in set _not_terminals
+3. Not-terminals are contained in set _not_terminals
 4. Right part in every rule is vector<int>
     #### example:
   
@@ -13,7 +13,7 @@
 | A -> deG | {'d', 'e', 'G'} |
 
   + (there is a cast char->int inside every vector)
-5. Rules with the same left part are contained in one set4
+5. Rules with the same left part are contained in one set
     #### example:
   
 | rules | how stored |
@@ -59,5 +59,5 @@ everywhere it's considered that rules have short enough length and their process
       + is in output of not-terminal A takes log(n) * size(_rules[A]) * (j - i)
       + is in output for all not_terminals takes sum( long(n) * size(_rules[A]) * (j - i)) = log(n) * n * (j - i)
   
-  *So, total time is O(n*log(n) * sizeof(word)^3), it can be imroved to O(n * sizeof(word)^3) using unordered set instead od set and unordered map instead of map)
+  *So, total time is O(n * log(n) * sizeof(word)^3), it can be imroved to O(n * sizeof(word)^3) using unordered set instead of set and unordered map instead of map)
   ----
