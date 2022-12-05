@@ -59,5 +59,5 @@ everywhere it's considered that rules have short enough length and their process
       + is in output of not-terminal A takes log(n) * size(_rules[A]) * (j - i)
       + is in output for all not_terminals takes sum( long(n) * size(_rules[A]) * (j - i)) = log(n) * n * (j - i)
   
-  *So, total time is O(n*log(n) * sizeof(word)), it can be imroved to O(n * sizeof(word)) using unordered set instead od set and unordered map instead of map)
+  *So, total time is O(n*log(n) * sizeof(word)^3), it can be imroved to O(n * sizeof(word)^3) using unordered set instead od set and unordered map instead of map)
   ----
